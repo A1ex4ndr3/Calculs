@@ -49,12 +49,11 @@ namespace Calculs
                     if (choix != 0)
                     {
                         bool correct1 = false;
+                        val1 = rand.Next(1, 10);
+                        val2 = rand.Next(1, 10);
 
                         if (choix == 1)
                         {
-                            // choix de l'addition
-                            val1 = rand.Next(1, 100);
-                            val2 = rand.Next(1, 100);
                             // saisie de la réponse
                             
                             while (!correct1)
@@ -84,9 +83,6 @@ namespace Calculs
                         }
                         else
                         {
-                            // choix de la multiplication
-                            val1 = rand.Next(1, 100);
-                            val2 = rand.Next(1, 10);
                             // saisie de la réponse
                             while (!correct1)
                             {
